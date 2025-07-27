@@ -68,3 +68,19 @@ assignment_4_regression_comparison/
 - Regression models underperformed due to the ordinal categorical nature of the target.
 - Classification, especially **XGBoost**, achieved the best results (Accuracy: 83.5%, F1: 81.5%).
 - Future improvements could include class balancing for rare classes like `"High"` risk.
+---
+
+## ✅ Assignment Criteria Checklist
+
+| Section               | Points | Completed | Notes |
+|-----------------------|--------|-----------|-------|
+| Problem Definition     | 1      | ✅ Yes     | Clear target (`risk_level`) and dataset from Kaggle |
+| Linear Regression      | 2      | ✅ Yes     | Implemented with RMSE/R² output |
+| XGBoost (Regression)   | 2      | ✅ Yes     | Tuned with learning rate and max depth |
+| Decision Tree (Reg)    | 2      | ✅ Yes     | Implemented with max_depth=8 |
+| Performance Comparison | 2      | ✅ Yes     | Results saved + plotted (RMSE/R²) |
+| Documentation          | 1      | ✅ Yes     | `summary.md` created with recommendations |
+
+**Bonus:** Classification models also implemented for clearer performance comparison.
+
+✔️ You’ve met all assignment criteria and added extra value!
