@@ -1,0 +1,24 @@
+# Kaggle credentials
+.kaggle/
+
+# VS Code settings
+.vscode/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+
+# Dataset and output
+data/
+*.zip
+*.csv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
